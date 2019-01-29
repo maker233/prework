@@ -36,6 +36,9 @@ button {
 h1,h2{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+h3 {
+  font-weight: bold;
+}
 
 header {
   background: rgb(32, 101, 136);
@@ -60,9 +63,11 @@ input {
 }
 /* FIN Header*/
 
-.headercontent ,.sectioncontent{
-  width: 65%;
+.headercontent ,.sectioncontent, .sectiontitles{
+  max-width: 66%;
   margin: 0 auto !important;
+}
+.headercontent ,.sectioncontent {
   color: white;
   padding-bottom: 50px;
 }
@@ -84,4 +89,22 @@ input {
   top: 100px;
   left: 250px;
   color: white;
+}
+.icons {
+  display: block;
+  position: relative;
+  background-color: white;
+  padding-top: 40px;
+}
+.sectiontitles, .sectionbox{
+  text-align: center;
+  display: block;
+  margin-top: 50px;
+}
+.box {
+  display: inline-block;
+  width: 22%; /*  Representa un 33% del ancho del div padre, línea 67 */
+}
+.box a {
+  color: rgb(208, 74, 73);
 }
