@@ -2,7 +2,7 @@ nav {
   background-color: #C12127;
   color: rgba(255,255,255,0.8);
   padding-top: 15px;
-  height: 100px;
+  height: 40px; /* Corregido de 100px a 40px */
 }
 
 nav a {
@@ -26,4 +26,62 @@ nav a {
 }
 .acronym {
   font-family: 'Roboto', sans-serif; /* Agregamos fuente*/
+}
+button {
+  border: none;
+  border-radius: 25px;
+  padding: 15px 30px 15px 30px;
+  color:  white;
+}
+h1,h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background: rgb(32, 101, 136);
+}
+.headerbar img input a{
+  display: inline-block;
+}
+input {
+  padding: 13px 60% 13px 10px !important;
+}
+.searchbar {
+  display: inline-block;
+  background: rgb(31, 82, 111);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #426F88;
+  padding: 10px;
+}
+.logbar ,a{
+  display: inline-block;
+  color: white;
+}
+/* FIN Header*/
+
+.headercontent ,.sectioncontent{
+  width: 65%;
+  margin: 0 auto !important;
+  color: white;
+  padding-bottom: 50px;
+}
+/* Clases de las section*/
+.orgs {
+  background-color: rgb(39, 53, 71);
+  padding-top: 50px;
+}
+.whats {
+  position: relative;
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  padding: 200px 200px 200px 200px;
+
+}
+.relabs {
+  position: absolute;
+  width: 20%;
+  top: 100px;
+  left: 250px;
+  color: white;
 }
